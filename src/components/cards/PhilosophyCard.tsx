@@ -60,7 +60,7 @@ const PhilosophyCard: React.FC<PhilosophyCardProps> = ({
         <Button
           variant={color === "success" ? "success" : "warning"}
           className="w-full btn-glow"
-          onClick={onClick}
+          onClick={() => window.location.href = '/portfolios'}
         >
           Explorer cette philosophie
         </Button>
